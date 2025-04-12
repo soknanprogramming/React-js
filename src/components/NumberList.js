@@ -23,7 +23,7 @@ function NumberList() {
         }
     ]
     const personList = persons.map(person => (
-        <Person person={person} key={person.id}></Person>
+        <Person key={person.id} person={person} ></Person>
     ))
     return <div>{personList}</div>
 }
