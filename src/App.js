@@ -8,14 +8,15 @@ import React, { Component } from 'react';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
 import styles from './App.module.css';
-import ParentComponent from './components/ParentComponent';
+// import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 class App extends Component{
   render(){
     // console.log("API KEY:", process.env.REACT_APP_API_KEY);
     return (
       <div className={styles.App}>
-        <ParentComponent />
+        <UserGreeting/>
       </div>
     )
   }
