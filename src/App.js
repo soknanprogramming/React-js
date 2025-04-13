@@ -13,6 +13,7 @@ import React, { Component } from 'react';
 // import NumberList from './components/NumberList'; 
 // import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
+import styles from './appStyles.module.css';
 
 class App extends Component{ 
   render(){
@@ -20,6 +21,8 @@ class App extends Component{
     return (
       <div>
         <Inline />
+        <h1 className={styles.error} >Error</h1>
+        <h1 className={styles.success} >Success</h1>
       </div>
     )
   }
