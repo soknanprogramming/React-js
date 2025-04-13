@@ -18,7 +18,7 @@ class App extends Component{
     // console.log("API KEY:", process.env.REACT_APP_API_KEY);
     return (
       <div>
-        <Stylesheet />
+        <Stylesheet primary={true} />
       </div>
     )
   }
