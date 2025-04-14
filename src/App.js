@@ -12,17 +12,17 @@ import React, { Component } from 'react';
 // import UserGreeting from './components/UserGreeting';
 // import NumberList from './components/NumberList'; 
 // import Stylesheet from './components/Stylesheet';
-import Inline from './components/Inline';
-import styles from './appStyles.module.css';
+// import Inline from './components/Inline';
+// import styles from './appStyles.module.css';
+import './App.css';
+import Form from './components/Form';
 
 class App extends Component{ 
   render(){
     // console.log("API KEY:", process.env.REACT_APP_API_KEY);
     return (
-      <div>
-        <Inline />
-        <h1 className={styles.error} >Error</h1>
-        <h1 className={styles.success} >Success</h1>
+      <div className="App">
+        <Form/>
       </div>
     )
   }
