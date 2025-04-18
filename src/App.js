@@ -22,7 +22,7 @@ class App extends Component{
   render(){
     // console.log("API KEY:", process.env.REACT_APP_API_KEY);
     return (
-      <div className="App">
+      <div className="">
         <LifecycleA />
       </div>
     )
