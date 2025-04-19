@@ -15,15 +15,18 @@ import React, { Component } from 'react';
 // import Inline from './components/Inline';
 // import styles from './appStyles.module.css';
 import './App.css';
-import LifecycleA from './components/LifecycleA';
+// import LifecycleA from './components/LifecycleA';
 // import Form from './components/Form';
+// import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 class App extends Component{ 
   render(){
     // console.log("API KEY:", process.env.REACT_APP_API_KEY);
     return (
       <div className="">
-        <LifecycleA />
+        {/* <FragmentDemo/> */}
+        <Table/>
       </div>
     )
   }
